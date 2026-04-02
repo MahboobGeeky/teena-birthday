@@ -82,7 +82,7 @@ export default function Wishes() {
               Dear Teena,
             </motion.p>
             <motion.p className="mt-6 leading-relaxed text-stone-600 md:text-lg" variants={item}>
-              On your special day — April 2nd — I hope you feel appreciated for the kind, wonderful person you are. May
+              On your special day — April 3rd — I hope you feel appreciated for the kind, wonderful person you are. May
               this year bring you calm days, bright surprises, and moments that make you smile when you look back on
               them.
             </motion.p>
