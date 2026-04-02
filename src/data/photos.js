@@ -6,4 +6,4 @@ export const photoPaths = Array.from({ length: PHOTO_COUNT }, (_, i) => `/images
 export const profilePhotoSrc = '/images/photo-1.jpeg'
 
 /** Bottom “together” photo (boy & girl / friends) — replace `public/images/couple.jpeg` with your picture */
-export const bottomCouplePhotoSrc = '/images/couple.jpeg'
+export const bottomCouplePhotoSrc = '/images/imag1.jpeg'
