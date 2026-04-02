@@ -23,6 +23,7 @@ export default function PhotoGallery() {
         >
           {photoPaths.map((src, index) => {
             const layout = galleryCards[index] ?? galleryCards[0]
+
             return (
               <motion.div
                 key={src}
@@ -30,14 +31,17 @@ export default function PhotoGallery() {
                 initial={{ opacity: 0, y: 32 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true, margin: '-50px' }}
-                transition={{ duration: 0.5, delay: Math.min(index * 0.04, 0.35) }}
+                transition={{
+                  duration: 0.5,
+                  delay: Math.min(index * 0.04, 0.35),
+                }}
               >
                 <TiltPhoto className="h-full">
                   <div className="h-full min-h-0">
                     <GalleryFrame variant={layout.variant}>
                       <img
                         src={src}
-                        alt={`Teena — gallery ${index + 1}`}
+                        alt={`Gallery photo ${index + 1}`}
                         className="h-full w-full object-cover transition duration-700 ease-out group-hover:scale-[1.07] group-hover:brightness-[1.04]"
                         loading={index < 4 ? 'eager' : 'lazy'}
                         decoding="async"
@@ -45,7 +49,10 @@ export default function PhotoGallery() {
                     </GalleryFrame>
                   </div>
                 </TiltPhoto>
-                <span className="sr-only">Photo {index + 1} of Teena</span>
+
+                <span className="sr-only">
+                  Photo {index + 1}
+                </span>
               </motion.div>
             )
           })}
@@ -54,4 +61,3 @@ export default function PhotoGallery() {
     </section>
   )
 }
-
