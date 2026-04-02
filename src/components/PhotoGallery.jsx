@@ -18,7 +18,7 @@ export default function PhotoGallery() {
         </motion.h2>
 
         <div
-          className="mt-12 grid grid-cols-2 grid-flow-dense gap-3 sm:gap-4 md:mt-14 md:grid-cols-4 md:gap-5"
+          className="mt-8 sm:mt-12 md:mt-14 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 grid-flow-dense gap-3 sm:gap-4 md:gap-5"
           style={{ gridAutoRows: 'minmax(120px, auto)' }}
         >
           {photoPaths.map((src, index) => {

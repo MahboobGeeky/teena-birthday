@@ -16,4 +16,5 @@ export const galleryCards = [
   { grid: 'col-span-1', minH: 'min-h-[130px] md:min-h-[150px]', variant: 'mini' },
   { grid: 'col-span-1', minH: 'min-h-[130px] md:min-h-[150px]', variant: 'double' },
   { grid: 'col-span-2', minH: 'min-h-[160px] md:min-h-[200px]', variant: 'banner' },
+  { grid: 'col-span-2 row-span-2', minH: 'min-h-[200px] md:min-h-[260px]', variant: 'banner' },
 ]

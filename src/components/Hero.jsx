@@ -41,7 +41,7 @@ export default function Hero() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6 }}
       >
-        April 2 — a day worth celebrating
+        April 3 — a day worth celebrating
       </motion.p>
 
       <motion.div
