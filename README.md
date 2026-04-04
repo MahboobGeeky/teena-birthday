@@ -1,4 +1,4 @@
-# Happy Birthday, Teena
+# Happy Birthday
 
 A small, friendly single-page site built with **React** and **Tailwind CSS** (Vite) to share birthday wishes and photos.
 
